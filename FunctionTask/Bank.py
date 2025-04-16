@@ -15,6 +15,5 @@ def main():
     
     Bank(Name, AccountNumber, Address, Amount)
 
-
 if __name__ == '__main__':
     main() 
