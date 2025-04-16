@@ -25,13 +25,23 @@ class Numbers:
         print(self.value)
             
     def CheckPrime(self):
-       pass
+        pass
+    
+    def CheckPerfect(self):
+        pass
+    
+    def Factor(self):
+        pass
+    
+    def SumOfFactor(self):
+        pass
+                
             
     
 def main():
     num = Numbers()
     num.AccessValues()
-    num.CheckPrime()
+    
 if __name__ == "__main__":
     main()
         

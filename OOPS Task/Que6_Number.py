@@ -8,3 +8,37 @@
 # Multiplication() method will perform multiplication of Value1 and Value2 and return result.
 # Division() method will perform division of Value1 and Value2 and return result.
 # After Designing the above class call all instance methods by creating multiple objects.
+
+class Number:
+    def __init__(self):
+        self.value1 = 0
+        self.value2 = 0
+        
+    def Accept(self):
+        self.value1 = int(input('Enter 1st value: '))
+        self.value2 = int(input('Enter 2nd value: '))
+    
+    def Addition(self):
+        return self.value1 + self.value2
+     
+    def Substraction(self):
+        return self.value1 - self.value2
+    
+    def Multiplication(self):
+        return self.value1 * self.value2
+    
+    def Division(self):
+        if 
+        return self.value1  / self.value2
+    
+def main():
+    num = Number()
+    num.Accept()
+    print('Addition: ', num.Addition())
+    print('Substraction: ', num.Substraction())
+    print('Multiplication: ', num.Multiplication())
+    print('Division: ', num.Division())
+    
+    
+if __name__ == "__main__":
+    main()
