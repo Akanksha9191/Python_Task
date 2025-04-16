@@ -28,8 +28,8 @@ class Number:
         return self.value1 * self.value2
     
     def Division(self):
-        if 
-        return self.value1  / self.value2
+        if self.value2 !=0:
+            return self.value1  / self.value2
     
 def main():
     num = Number()
